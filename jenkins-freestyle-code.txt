@@ -23,7 +23,7 @@ Step 3:
 echo "Docker login"
 docker login -u Yashpatole81 -p Bubbdya@2003
 echo "Docker image Tagging"
-docker tag my-python-app mbarathtrainer/docker-private:v3.0
+docker tag my-python-app Yashpatole81/docker-private:v3.0
 echo "List the current/available docker images"
 docker images
 echo "Push the docker image into the dockerhub"
